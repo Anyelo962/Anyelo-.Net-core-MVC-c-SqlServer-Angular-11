@@ -1,0 +1,59 @@
+
+
+<form ng-submit="onSubmit()">
+  <div class="mb-3">
+    <label class="form-label">Nombre</label>
+    <input type="text" class="form-control" placeholder="Ingrese su nombre">
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Apellido</label>
+    <input type="text" class="form-control" placeholder="Ingrese su apellido">
+  </div>
+
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+    <label class="form-check-label" for="flexRadioDefault1">
+      Masculino
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+    <label class="form-check-label" for="flexRadioDefault2">
+      Femenino
+    </label>
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Digite su DNI</label>
+    <input type="text" class="form-control" placeholder="Ingrese su DNI" maxlength="13" value="#">
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Fecha de nacimiento</label>
+    <input type="date" class="form-control">
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Departamento</label>
+    <input type="text" class="form-control" placeholder="Ingrese el departamento">
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Cargo</label>
+    <input type="text" class="form-control" placeholder="Ingrese su cargo">
+  </div>
+
+  <label>¿Es usted supervisor inmediato? </label>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+    <label class="form-check-label" for="flexRadioDefault1">
+      Si
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+    <label class="form-check-label" for="flexRadioDefault2">
+      No
+    </label>
+  </div>
+  <br />
+  <button type="submit" class="btn btn-primary">Guardar</button>
+
+</form>
